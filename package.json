@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This website allows a user to submit a FormData object that includes a file upload and receive a JSON response with the file size in bytes.",
   "main": "app.js",
+  "engines": {
+    "node": "6.11.1"
+  },
   "scripts": {
     "start": "node app.js"
   },
